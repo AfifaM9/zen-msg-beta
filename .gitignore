@@ -1,0 +1,29 @@
+# Credentials / signing secrets
+*.jks
+*.keystore
+*.p12
+*.bks
+*.pem
+*.key
+
+# Environment / machine-specific
+local.properties
+
+# Build outputs
+build/
+.gradle/
+.cxx/
+captures/
+*.apk
+*.aab
+*.dex
+
+# IDE / personal state
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+Thumbs.db
+
+# Room schemas (regenerable)
+app/schemas/
