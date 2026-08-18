@@ -42,3 +42,6 @@ The release build is signed with the keystore at `app/zen-release.jks`
 `READ_PHONE_STATE`, `POST_NOTIFICATIONS`, `WAKE_LOCK`.
 
 Runtime permissions are requested at first launch from `MainActivity`.
+
+> [!CAUTION]  
+> This is a **beta pre-release**. Certain things will be buggy. Visit the stable branch at [AfifaM9/zen-msg](https://github.com/AfifaM9/zen-msg)
