@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ZenMsg" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/zen_background_dark</item>
+        <item name="android:statusBarColor">@color/zen_background_dark</item>
+    </style>
+
+    <color name="zen_background_dark">#FF0E1514</color>
+</resources>

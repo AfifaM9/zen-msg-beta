@@ -1,1 +1,0 @@
-SMS messenger with true-random message IDs from sensor jitter, CSPRNG, and timing entropy (Beta)

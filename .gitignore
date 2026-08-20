@@ -1,4 +1,38 @@
-keystore.p12
+# ==========================================
+# 🛑 CRITICAL BINARIES & KEYS (Block All APKs/Keystores)
+# ==========================================
+*.apk
+*.ap_
+*.aab
+*.idsig
+*.keystore
+*.jks
+*.p12
 config.yml
+
+# ==========================================
+# 🤖 Android Studio & IntelliJ Files
+# ==========================================
+.idea/
+*.iml
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ==========================================
+# 📦 Compiled Build Outputs
+# ==========================================
+build/
+app/build/
+
+# ==========================================
+# 💻 Native Mint / Linux OS Trash
+# ==========================================
+.DS_Store
+.directory
+*~
+*.swp
 tmp/
 srclibs/
