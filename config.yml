@@ -1,6 +1,6 @@
 # fdroidserver configuration for the self-hosted Zen Message repository.
-repo_url: https://afifam9.github.io/zen-msg-beta/repo
+repo_url: https://afifam9.github.io/zen-msg-beta/fdroid
 repo_name: Zen Message Repository
 repo_description: Signed release APKs for Zen Message (beta), an SMS messenger with TRNG-generated message IDs.
-repo_icon: fdroid-icon.png
+# no icon configured
 archive_older: 0
