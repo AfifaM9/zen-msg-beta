@@ -1,0 +1,1 @@
+{"repo": {"timestamp": 1787238198000, "version": 20002, "name": "Zen Message Repository", "icon": "icon.png", "address": "https://afifam9.github.io/zen-msg-beta/fdroid/repo", "description": "Signed release APKs for Zen Message (beta), an SMS messenger with TRNG-generated message IDs."}, "requests": {"install": [], "uninstall": []}, "apps": [], "packages": {}}
