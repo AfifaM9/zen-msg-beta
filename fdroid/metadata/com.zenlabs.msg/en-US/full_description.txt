@@ -1,0 +1,17 @@
+Zen Message is a fully functional SMS messaging app built with Jetpack Compose.
+
+It sends and receives real SMS messages using the same telephony primitives as the stock messaging app (SmsManager and the SMS_RECEIVED broadcast), stores everything locally in an encrypted-at-rest-friendly Room database, and renders conversations in a modern Compose UI: conversation list, thread view, and composer.
+
+Features:
+- Send and receive SMS, including multipart (long) messages
+- Delivery-status tracking for sent messages
+- Conversation list with pin, archive, block, and per-conversation drafts
+- Contact name resolution from the device address book
+- New-message notifications
+- No accounts, no servers, no analytics, no ads — everything stays on your phone
+
+What makes Zen Message different is its TRNG: message IDs and per-message nonces are generated from a combination of hardware sensor jitter (accelerometer, magnetometer, gyroscope micro-readings), the kernel CSPRNG, and nanosecond scheduler-timing jitter. IDs are Crockford base32 and timestamp-prefixed, so they sort naturally and never collide.
+
+Permissions: SEND_SMS, RECEIVE_SMS, READ_SMS, RECEIVE_MMS, READ_CONTACTS, READ_PHONE_STATE, POST_NOTIFICATIONS, WAKE_LOCK — requested at first launch.
+
+This is the beta pre-release. Expect rough edges; the stable version lives in the zen-msg repository.
